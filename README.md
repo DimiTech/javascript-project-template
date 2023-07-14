@@ -7,8 +7,8 @@
 - Linting             : eslint
 - Formatting          : prettier
 - Pre commit hooks    : husky, lint-staged
-- Testing             : mocha
-- Coverage            : nyc
+- Testing             : node:test
+- Coverage            : c8
 - Dependency Checking : depcheck, madge
 - CI                  : .github/workflows/node.js.yml
 ```
@@ -23,7 +23,7 @@ differences as individual `eslint` issues.
 
 ## Code Coverage
 
-Coverage watermarks are defined in: `nyc.config.js`.
+Coverage watermarks are defined in: `.c8rc.json`.
 
 ## Running the App
 

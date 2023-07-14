@@ -1,9 +1,11 @@
+const { describe, it } = require('node:test')
+
 const assert = require('assert')
 
 const { greet } = require('../src/greet/greeter')
 
 describe('Greeter', () => {
-  describe('#greet()', () => {
+  describe('.greet()', () => {
     const helloWorld = 'Hello World!'
     it(`Returns '${helloWorld}' when name ommited`, () => {
       assert.equal(greet(), helloWorld)
