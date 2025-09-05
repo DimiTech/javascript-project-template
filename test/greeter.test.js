@@ -1,8 +1,7 @@
-const { describe, it } = require('node:test')
+import assert from 'node:assert'
+import { describe, it } from 'node:test'
 
-const assert = require('assert')
-
-const { greet } = require('../src/greet/greeter')
+import { greet } from '../src/greet/greeter.js'
 
 describe('Greeter', () => {
   describe('.greet()', () => {

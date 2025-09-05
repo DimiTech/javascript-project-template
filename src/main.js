@@ -1,3 +1,3 @@
-const { greet } = require('./greet/greeter')
+import { greet } from './greet/greeter.js'
 
 console.log(greet())
